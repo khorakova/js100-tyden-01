@@ -10,7 +10,9 @@ console.log('%c Přednost operátorů ', 'background:black;color:yellow;');
 // ale některé zprava doleva
 
 // Přednost matematických operátorů
+
 // Porovnávání a matematické operátory
+
 // Exponent - příklad operátoru zprava doleva
 // Závorky - nejvyšší priorita
 // Přiřazení - zprava doleva, skoro nejnižší priorita

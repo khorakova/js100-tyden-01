@@ -21,3 +21,20 @@ console.log('%c Primitivní vs. referenční datové typy ', 'background:black;c
 // - obě proměnné nyní odkazují na stejné místo
 // - POZOR! když potom změníme např. vlastnost objektu
 //   uloženého v jedné proměnné, změní se i v druhé
+
+const zvire = {
+    druh: "kocka",
+    barva: "cerna",
+    vek: 3
+}
+// tohle lze
+zvire.barva = "pruhovana"
+
+//tohle nelze (nelze priradit do objektu cely novy objekt, novy odkaz)
+zvire = {
+    druh: 'pes'
+}
+
+// do const nemuzeme priradit novou hodnotu, ale u referencnich datovych typu je konstatni hodnotou odkaz,
+// ktery vede na hromadu, kde jsou definovane vlastnosti. Tento odkaz nemuzeme menit, ale jednotlive vlastnosti
+// prepisovat jdou, rozdil mezi primitivnim a referencnim datovym typem

@@ -2,7 +2,8 @@ console.log('%c Základní operátory ', 'background:black;color:yellow;');
 
 // Aritmetické operátory
 // základní matematické operace
-// +, -, *, /, %, **
+// +, -, *, /, %, **(exponent)
+// x = 2 ** 3 (dve na treti -> 8)
 
 // Inkrementační a dekrementační operátory
 // zvětšení, zmenšení o 1
